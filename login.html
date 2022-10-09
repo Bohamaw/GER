@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang=''>
+<head>
+   <meta charset='utf-8'>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="teste.css">
+   <script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+   <script src="script.js"></script>
+   <script src="validaCPF.js"></script>
+   <title>Login</title>
+</head>
+<style>
+
+h1 {
+   position: absolute;
+width: 200px;
+height: 33px;
+right: 220px;
+top: 109px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 100px;
+letter-spacing: 0.02em;
+
+   color: white;
+}
+#p1 {
+   position: absolute;
+width: 100px;
+height: 33px;
+right: 370px;
+top: 242px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 4px;
+letter-spacing: 0.02em;
+
+   color: white;
+}
+
+#p2 {
+   position: absolute;
+width: 100px;
+height: 33px;
+right: 370px;
+top: 292px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 4px;
+letter-spacing: 0.02em;
+
+   color: white;
+}
+
+#btnenviar {
+   position: absolute;
+width: 100px;
+height: 33px;
+right: 270px;
+top: 460px;
+
+background: #8257E5;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 4px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+   #email {
+      position: absolute;
+  width: 220px;
+height: 29px;
+left: 890px;
+top: 250px;
+background: #0C080891;
+
+   }
+   #senha {
+      position: absolute;
+  width: 220px;
+height: 29px;
+left: 890px;
+top: 300px;
+background: #0C080891;
+
+   }
+
+   #square {
+  position: absolute;
+  width: 350px;
+height: 299px;
+left: 780px;
+top: 210px;
+
+   background: #d9d9d91f;
+   display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+img{
+
+   position: absolute;
+width: 474px;
+height: 465px;
+left: 75px;
+top: 129px;
+
+
+}
+
+</style>
+<body>
+
+<div class="cssmenu"> <!---Menu DIV-->
+  <ul> <!--Abas-->
+  
+  
+    </li>
+     <li><a href='http://localhost/gre/index.html'>Home</a>
+    </li>
+     <li><a href='http://localhost/gre/agenda.html'>Agendamento</a>
+    </li>
+     <li><a href='https://localhost/gre/somos.html'>Quem somos nós?</a>
+    </li>
+     <li><a href='https://localhost/gre/contato.html'>Contato</a>
+    </li> 
+    <li id="login"><a href='https://localhost/gre/login.html'>Login</a>
+    </li>
+     <li><a href='#'>Cadastro</a>
+      <ul>
+        
+              <li><a href='https://localhost/gre/CadastroDOS.html'>Doscentes</a></li>
+              <li><a href='https://localhost/gre/CadastroU18.html'>Discentes maiores de 18</a></li>
+              <li><a href='https://localhost/gre/CadastroTER.html'>Terciarios</a></li>
+        </li>
+  
+     
+    
+  </ul>
+  </div>
+<div id="square"> </div>
+ <form class="formulario" name="formulario" method="post"
+action="recebe_dados_post.php">
+
+<h1>FAÇA O LOGIN</h1>
+<p id="p1">LOGIN</p>
+<p id="p2">SENHA</p>
+
+ <input id="email" name="email" type="text" /> 
+ <br>
+ <input id="senha" name="email" type="text" /> 
+ <br>
+
+ <input id="btnenviar" name="btnenviar" type="submit" value="Entrar" />
+ <br>
+ <br>
+
+</form>
+
+<img src="img/respeito.png" alt="carro roxo">
+
+<div id="caixa"></div>
+
+</body>
+<html>
