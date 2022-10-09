@@ -1,0 +1,238 @@
+ <html>
+ <head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="certo.css">
+ <title>Cadastro Discentes</title>
+ </head>
+ <style>
+   #h1 {
+      position: absolute;
+      top: 128px;
+      left: 70px;
+      color: #8257E5;
+      
+   }
+   #nome {
+      position: absolute;
+  width: 180px;
+height: 20px;
+left: 175px;
+top: 26px;
+background: #e6dcdc91;
+
+   }
+   
+   #email {
+      position: absolute;
+  width: 180px;
+height: 20px;
+left: 175px;
+top: 78px;
+background: #bbb6b691;
+
+   }
+   #cpf {
+      position: absolute;
+  width: 180px;
+height: 20px;
+left: 160px;
+top: 130px;
+background: #bbb6b691;
+
+   }
+   #cnh {
+      position: absolute;
+  width: 180px;
+height: 20px;
+left: 168px;
+top: 182px;
+background: #bbb6b691;
+
+   }
+
+   #matri {
+      position: absolute;
+  width: 180px;
+height: 20px;
+left: 220px;
+top: 234px;
+background: #bbb6b691;
+   }
+
+   #p1 {
+      position: absolute;
+width: 1px;
+height: 53px;
+left: 100px;
+top: -12px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 44px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+   }
+   #p2 {
+      position: absolute;
+width: 1px;
+height: 53px;
+left: 100px;
+top: 40px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 44px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+   }
+   #p3 {
+      position: absolute;
+width: 1px;
+height: 53px;
+left: 100px;
+top: 92px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 44px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+   }
+   #p4 {
+      position: absolute;
+width: 1px;
+height: 53px;
+left: 100px;
+top: 146px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 44px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+   }
+   #p5 {
+      position: absolute;
+width: 1px;
+height: 53px;
+left: 100px;
+top: 196px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 44px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+   }
+
+   #square {
+  position: absolute;
+  width: 509px;
+height: 323px;
+left: 0px;
+top: 200px;
+   background: #D9D9D90A;
+}
+
+#prox {
+   position: absolute;
+width: 100px;
+height: 33px;
+right: -700px;
+top: 300px;
+
+background: #8257E5;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 4px;
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+}
+ </style>
+ <body>
+   <div class="cssmenu"> <!---Menu DIV-->
+      <ul> <!--Abas-->
+      
+      
+        </li>
+         <li><a href='http://localhost/gre/index.html'>Home</a>
+        </li>
+         <li><a href='http://localhost/gre/agenda.html'>Agendamento</a>
+        </li>
+         <li><a href='https://localhost/gre/somos.html'>Quem somos nós?</a>
+        </li>
+         <li><a href='https://localhost/gre/contato.html'>Contato</a>
+        </li> 
+        <li id="login"><a href='https://localhost/gre/login.html'>Login</a>
+        </li>
+         <li><a href='#'>Cadastro</a>
+          <ul>
+            
+                  <li><a href='https://localhost/gre/CadastroDOS.html'>Doscentes</a></li>
+                  <li><a href='https://localhost/gre/CadastroU18.html'>Discentes maiores de 18</a></li>
+                  <li><a href='https://localhost/gre/CadastroTER.html'>Terciarios</a></li>
+            </li>
+      
+         
+        
+      </ul>
+     
+   </div>
+
+      
+
+ <div id="square">        
+ <form id="formulario" name="formulario" method="post"
+action="login.php">
+
+
+
+<p id="p1">Nome: </p>
+   <input type="text" id="nome" name="nome" />
+
+<p id="p2">Email: </p>
+  <input type="text" id="email" name="email" maxlength="8" />
+<p id="p3">CPF: </p>
+  <input type="number" id="cpf" name="cpf" />
+
+<p id="p4">CNH: </p>
+   <input type="number" id="cnh" name="cnh" />
+<p id="p5">Matricula: </p>
+   <input type="number" id="matri" name="matri" />
+
+
+
+    <p>
+    <input id="prox" type="submit" value="Proximo" />
+   </p>
+ 
+
+
+ </form>
+</div>
+<h1 id="h1">CADASTRO DISCENTES</h1>
+
+<div id="caixa"></div>
+</body>
+</html>
